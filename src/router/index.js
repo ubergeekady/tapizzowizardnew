@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import IndexPage from "../views/IndexPage.vue";
 
 //Router
 
@@ -9,9 +10,9 @@ const routes = [
     component: () => import("../views/ContactForm.vue"),
   },
   {
-    path: "/step1",
-    name: "step1",
-    component: () => import("../views/PageStep1.vue"),
+    path: "/",
+    name: "indexpage",
+    component: IndexPage,
   },
   {
     path: "/step2",
