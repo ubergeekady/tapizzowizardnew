@@ -31,7 +31,7 @@
 export default {
   data() {
     return {
-      name: "IndexPage",
+      name: "PageStep1",
     };
   },
   methods: {
