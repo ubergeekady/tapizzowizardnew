@@ -17,7 +17,7 @@
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <img src="startthequiz.png" alt="" />
+                <img src="startthequiz.png" @click="clickedNext" alt="" />
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/contactform");
+      this.$router.push("/step2");
     },
   },
 };
