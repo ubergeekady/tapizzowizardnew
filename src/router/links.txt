@@ -1,0 +1,18 @@
+/*
+path: "/",
+path: "/contactform",
+path: "/page2",
+path: "/page3",
+path: "/camera",
+path: "/page4",
+path: "/choosecategory",
+path: "/productCarpet",
+path: "/productMirror",
+path: "/productBench",
+path: "/productOttoman",
+path: "/tryitinyourroom",
+path: "/buyitnow",
+path: "/talktoanexpert",
+path: "/talktoanexpert1",
+
+    */
