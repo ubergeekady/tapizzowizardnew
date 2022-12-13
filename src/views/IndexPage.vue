@@ -14,6 +14,12 @@
                 <br /><br /><br /><br /><br /><br /><br /><br />
               </div>
             </div>
+            <div class="row" style="text-align: center">
+              <div class="col-md-12">
+                <br /><br />
+                <img src="startthequiz.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
