@@ -28,6 +28,17 @@
                 <img src="/roompics/8.webp" alt="" /><br /><br />
               </div>
             </div>
+
+            <br /><br />
+
+            <button
+              type="button"
+              name="for"
+              class="forward"
+              @click="clickedNext"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>
@@ -44,7 +55,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/contactform");
+      this.$router.push("/step3");
     },
   },
 };
