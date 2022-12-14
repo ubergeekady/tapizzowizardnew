@@ -59,6 +59,27 @@ const routes = [
     name: "productmirror",
     component: () => import("../views/ProductMirror.vue"),
   },
+
+  {
+    path: "/buyitnow",
+    name: "buyitnow",
+    component: () => import("../views/BuyItNow.vue"),
+  },
+  {
+    path: "/talktoanexpert",
+    name: "talktoanexpert",
+    component: () => import("../views/TalkToAnExpert.vue"),
+  },
+  {
+    path: "/talktoanexpert1",
+    name: "talktoanexpert1",
+    component: () => import("../views/TalkToAnExpert1.vue"),
+  },
+  {
+    path: "/tryitinyourroom",
+    name: "tryitinyourroom",
+    component: () => import("../views/TryItInYourRoom.vue"),
+  },
 ];
 
 const router = createRouter({
