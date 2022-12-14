@@ -4,22 +4,62 @@
       <div class="row no-gutters">
         <div class="col-lg-12">
           <div id="wizard_container">
-            <div class="row">
-              <div class="col-md-12" style="background-image: url('home.jpeg')">
-                <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <h2 style="color: #ffffff">
-                  Take our interior design style quiz to discover your unique
-                  home style.
-                </h2>
-                <br /><br /><br /><br /><br /><br /><br /><br />
-              </div>
-            </div>
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <img src="startthequiz.png" alt="" />
+                <h1>What kind of home do you live in ?</h1>
+
+                <br /><br />
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label class="container_radio version_2"
+                    >House
+                    <input
+                      type="radio"
+                      name="question_2"
+                      value="Yes"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container_radio version_2"
+                    >Townhouse
+                    <input
+                      type="radio"
+                      name="question_2"
+                      value="No"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container_radio version_2"
+                    >Apartment
+                    <input
+                      type="radio"
+                      name="question_2"
+                      value="No"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <br />
+
+                <button
+                  type="button"
+                  name="for"
+                  class="forward"
+                  @click="clickedNext"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+            <!-- /row -->
           </div>
         </div>
       </div>
@@ -31,12 +71,12 @@
 export default {
   data() {
     return {
-      name: "IndexPage",
+      name: "PageStep2",
     };
   },
   methods: {
     clickedNext() {
-      this.$router.push("/contactform");
+      this.$router.push("/page4");
     },
   },
 };

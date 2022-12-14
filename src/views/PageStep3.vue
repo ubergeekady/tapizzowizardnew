@@ -96,7 +96,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/contactform");
+      this.$router.push("/page4");
     },
   },
 };
