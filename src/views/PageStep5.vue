@@ -142,7 +142,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/step5");
+      this.$router.push("/step6");
     },
   },
 };

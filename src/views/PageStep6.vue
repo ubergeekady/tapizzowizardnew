@@ -5,21 +5,53 @@
         <div class="col-lg-12">
           <div id="wizard_container">
             <div class="row">
-              <div class="col-md-12" style="background-image: url('home.jpeg')">
-                <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <h2 style="color: #ffffff">
-                  Take our interior design style quiz to discover your unique
-                  home style.
-                </h2>
-                <br /><br /><br /><br /><br /><br /><br /><br />
-              </div>
-            </div>
-            <div class="row" style="text-align: center">
               <div class="col-md-12">
-                <br /><br />
-                <img src="startthequiz.png" alt="" />
+                <h2>What would you like to buy today ?</h2>
               </div>
             </div>
+
+            <div class="step">
+              <div class="row">
+                <div class="col-lg-6">
+                  <a href="carpet.html">
+                    <div class="form-group">
+                      <label class="container_check version_2"
+                        ><h5 style="text-align: center">Carpet</h5>
+                        <img src="1.jpeg" />
+                      </label>
+                    </div>
+                  </a>
+                  <a href="ottoman.html">
+                    <div class="form-group">
+                      <label class="container_check version_2"
+                        ><h5 style="text-align: center">Ottoman</h5>
+                        <img src="4.png" />
+                      </label>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <a href="benches.html">
+                    <div class="form-group">
+                      <label class="container_check version_2"
+                        ><h5 style="text-align: center">Benches</h5>
+                        <img src="3.png" />
+                      </label>
+                    </div>
+                  </a>
+                  <a href="mirror.html">
+                    <div class="form-group">
+                      <label class="container_check version_2"
+                        ><h5 style="text-align: center">Mirror</h5>
+                        <img src="2.png" />
+                      </label>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- /step-->
           </div>
         </div>
       </div>
