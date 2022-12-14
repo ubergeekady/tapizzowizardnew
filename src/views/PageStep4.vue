@@ -76,7 +76,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/page4");
+      this.$router.push("/step5");
     },
   },
 };

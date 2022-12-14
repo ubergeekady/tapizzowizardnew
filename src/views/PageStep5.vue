@@ -4,20 +4,126 @@
       <div class="row no-gutters">
         <div class="col-lg-12">
           <div id="wizard_container">
-            <div class="row">
-              <div class="col-md-12" style="background-image: url('home.jpeg')">
-                <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <h2 style="color: #ffffff">
-                  Take our interior design style quiz to discover your unique
-                  home style.
-                </h2>
-                <br /><br /><br /><br /><br /><br /><br /><br />
-              </div>
-            </div>
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <img src="startthequiz.png" alt="" />
+                <h1>Please tell us a bit more about this.</h1>
+
+                <br /><br />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="First And Last Name"
+                    class="form-control required"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    id="email"
+                    class="form-control required"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Phone"
+                    class="form-control required"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Location"
+                    class="form-control required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Is this apartment owned or leased ?"
+                    class="form-control required"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="dob"
+                    id="dob"
+                    placeholder="Date Of Birth"
+                    class="form-control required"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="typeofhouse"
+                    id="typeofhouse"
+                    placeholder="Type Of House"
+                    class="form-control required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="gender"
+                    id="gender"
+                    placeholder="Gender"
+                    class="form-control required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="doyouownapet"
+                    id="doyouownapet"
+                    placeholder="Do you own a pet"
+                    class="form-control required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="wheredoyouwork"
+                    id="wheredoyouwork"
+                    placeholder="Where do you work"
+                    class="form-control required"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <button
+                  type="button"
+                  name="for"
+                  class="forward"
+                  @click="clickedNext"
+                >
+                  Next
+                </button>
               </div>
             </div>
           </div>
@@ -31,12 +137,12 @@
 export default {
   data() {
     return {
-      name: "IndexPage",
+      name: "PageStep2",
     };
   },
   methods: {
     clickedNext() {
-      this.$router.push("/contactform");
+      this.$router.push("/step5");
     },
   },
 };
