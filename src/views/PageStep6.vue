@@ -17,7 +17,7 @@
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Carpet</h5>
-                        <img src="1.jpeg" />
+                        <img src="1.jpeg" /><br /><br /><br />
                       </label>
                     </div>
                   </a>
