@@ -13,7 +13,7 @@
             <div class="step">
               <div class="row">
                 <div class="col-lg-6">
-                  <a href="carpet.html">
+                  <a @click="clickedCarpet">
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Carpet</h5>
@@ -21,7 +21,7 @@
                       </label>
                     </div>
                   </a>
-                  <a href="ottoman.html">
+                  <a @click="clickedOttoman">
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Ottoman</h5>
@@ -31,7 +31,7 @@
                   </a>
                 </div>
                 <div class="col-lg-6">
-                  <a href="benches.html">
+                  <a @click="clickedBenches">
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Benches</h5>
@@ -39,7 +39,7 @@
                       </label>
                     </div>
                   </a>
-                  <a href="mirror.html">
+                  <a @click="clickedMirror">
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Mirror</h5>
@@ -67,8 +67,19 @@ export default {
     };
   },
   methods: {
-    clickedNext() {
-      this.$router.push("/contactform");
+    clickedCarpet() {
+      this.$router.push("/productcarpet");
+    },
+
+    clickedOttoman() {
+      this.$router.push("/productottoman");
+    },
+
+    clickedBenches() {
+      this.$router.push("/productbench");
+    },
+    clickedMirror() {
+      this.$router.push("/productmirror");
     },
   },
 };

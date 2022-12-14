@@ -40,14 +40,24 @@ const routes = [
     component: () => import("../views/PageStep6.vue"),
   },
   {
-    path: "/step7",
-    name: "step7",
-    component: () => import("../views/PageStep7.vue"),
+    path: "/productcarpet",
+    name: "productcarpet",
+    component: () => import("../views/ProductCarpet.vue"),
   },
   {
-    path: "/step8",
-    name: "step8",
-    component: () => import("../views/PageStep8.vue"),
+    path: "/productottoman",
+    name: "productottoman",
+    component: () => import("../views/ProductOttoman.vue"),
+  },
+  {
+    path: "/productbench",
+    name: "productbench",
+    component: () => import("../views/ProductBench.vue"),
+  },
+  {
+    path: "/productmirror",
+    name: "productmirror",
+    component: () => import("../views/ProductMirror.vue"),
   },
 ];
 
