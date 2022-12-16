@@ -9,32 +9,27 @@
               <span id="location"></span>
             </div>
 
-            <!-- /top-wizard -->
             <form id="wrapped" method="post">
               <input id="website" name="website" type="text" value="" />
               <!-- Leave for security protection, read docs for details -->
               <div id="middle-wizard">
                 <div class="step">
                   <h3 class="main_question" style="text-align: center">
-                    <img src="camera.jpeg" />
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.roomvo.com/my/euro_multiproduct_demo/rooms/4bee46c2296c4c52b38e7ae40473a1c3?product_type=2&per_product_type_prefilter=%7B%222%22%3A%7B%22general_tag__in%22%3A%5B%22Luminaire%22%5D%7D%2C+%224%22%3A%7B%22general_tag__in%22%3A%5B%22Luminaire%22%5D%7D%2C+%225%22%3A%7B%22general_tag__in%22%3A%5B%22Luminaire%22%5D%7D%2C+%226%22%3A%7B%22general_tag__in%22%3A%5B%22Luminaire%22%5D%7D%7D"
+                    />
                   </h3>
-                  <!-- /row-->
                 </div>
-                <!-- /step-->
               </div>
-              <!-- /middle-wizard -->
               <div id="bottom-wizard"></div>
-              <!-- /bottom-wizard -->
             </form>
           </div>
-          <!-- /Wizard container -->
         </div>
       </div>
-      <!-- /Row -->
     </div>
-    <!-- /Form_container -->
   </div>
-  <!-- /container -->
 </template>
 
 <script>
