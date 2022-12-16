@@ -20,6 +20,11 @@ const routes = [
     component: () => import("../views/PageStep2.vue"),
   },
   {
+    path: "/step2.1",
+    name: "step2.1",
+    component: () => import("../views/PageStep2.1.vue"),
+  },
+  {
     path: "/step3",
     name: "step3",
     component: () => import("../views/PageStep3.vue"),
@@ -33,6 +38,11 @@ const routes = [
     path: "/step5",
     name: "step5",
     component: () => import("../views/PageStep5.vue"),
+  },
+  {
+    path: "/step5.1",
+    name: "step5.1",
+    component: () => import("../views/PageStep5.1.vue"),
   },
   {
     path: "/step6",

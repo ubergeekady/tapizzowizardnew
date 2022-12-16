@@ -6,7 +6,7 @@
           <div id="wizard_container">
             <div class="row">
               <div class="col-md-12">
-                <h2>What would you like to buy today ?</h2>
+                <h2>Please choose a category</h2>
               </div>
             </div>
 

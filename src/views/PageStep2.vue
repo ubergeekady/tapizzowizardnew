@@ -7,7 +7,10 @@
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <h1>Select five rooms that make you swoon.</h1>
+                <h1>
+                  Great. Please take this short pictoral quiz for our
+                  recommendation engine to find your home decorating style.
+                </h1>
 
                 <br /><br />
               </div>
@@ -55,7 +58,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/step3");
+      this.$router.push("/step2.1");
     },
   },
 };

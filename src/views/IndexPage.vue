@@ -8,8 +8,8 @@
               <div class="col-md-12" style="background-image: url('home.jpeg')">
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <h2 style="color: #ffffff">
-                  Take our interior design style quiz to discover your unique
-                  home style.
+                  Would you like use our award winning Virtual Decorating
+                  Assistant to find what you are looking for?
                 </h2>
                 <br /><br /><br /><br /><br /><br /><br /><br />
               </div>

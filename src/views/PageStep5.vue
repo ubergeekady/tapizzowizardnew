@@ -7,14 +7,17 @@
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <h1>Please tell us a bit more about this.</h1>
+                <h1>
+                  Please fill your phone and email ID to see your home
+                  decorating style.
+                </h1>
 
                 <br /><br />
               </div>
             </div>
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="form-group">
                   <input
                     type="text"
@@ -33,6 +36,7 @@
                     class="form-control required"
                   />
                 </div>
+
                 <div class="form-group">
                   <input
                     type="text"
@@ -48,66 +52,6 @@
                     name="phone"
                     id="phone"
                     placeholder="Location"
-                    class="form-control required"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Is this apartment owned or leased ?"
-                    class="form-control required"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="dob"
-                    id="dob"
-                    placeholder="Date Of Birth"
-                    class="form-control required"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="typeofhouse"
-                    id="typeofhouse"
-                    placeholder="Type Of House"
-                    class="form-control required"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="gender"
-                    id="gender"
-                    placeholder="Gender"
-                    class="form-control required"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="doyouownapet"
-                    id="doyouownapet"
-                    placeholder="Do you own a pet"
-                    class="form-control required"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="wheredoyouwork"
-                    id="wheredoyouwork"
-                    placeholder="Where do you work"
                     class="form-control required"
                   />
                 </div>
@@ -142,7 +86,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/step6");
+      this.$router.push("/step5.1");
     },
   },
 };
