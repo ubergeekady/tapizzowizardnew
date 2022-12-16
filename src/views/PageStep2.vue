@@ -17,18 +17,108 @@
             </div>
             <div class="row">
               <div class="col-md-4">
-                <img src="/roompics/1.webp" alt="" /><br /><br />
-                <img src="/roompics/2.webp" alt="" /><br /><br />
-                <img src="/roompics/3.webp" alt="" /><br /><br />
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/1.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/2.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/3.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
               </div>
+
               <div class="col-md-4">
-                <img src="/roompics/4.webp" alt="" /><br /><br />
-                <img src="/roompics/5.webp" alt="" /><br /><br />
-                <img src="/roompics/6.webp" alt="" /><br /><br />
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/4.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/5.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/6.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
               </div>
+
               <div class="col-md-4">
-                <img src="/roompics/7.webp" alt="" /><br /><br />
-                <img src="/roompics/8.webp" alt="" /><br /><br />
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/7.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="container_check version_2"
+                    ><img src="/roompics/8.webp" alt="" />
+                    <input
+                      type="checkbox"
+                      name="question_1[]"
+                      value="China"
+                      class="required"
+                    />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
               </div>
             </div>
 
