@@ -5,8 +5,6 @@
         <div class="col-lg-12">
           <div id="wizard_container">
             <div class="row">
-              <h2>Would you like to use Tapizzo recommendation engine</h2>
-
               <div class="col-md-12" style="background-image: url('home.jpeg')">
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <h2 style="color: #ffffff">
