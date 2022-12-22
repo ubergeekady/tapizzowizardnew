@@ -17,7 +17,9 @@
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Carpet</h5>
-                        <img src="1.jpeg" /><br /><br /><br />
+                        <img
+                          src="productimages/carpet1.jpeg"
+                        /><br /><br /><br />
                       </label>
                     </div>
                   </a>
@@ -25,7 +27,7 @@
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Ottoman</h5>
-                        <img src="4.png" />
+                        <img src="productimages/otto1.jpeg" />
                       </label>
                     </div>
                   </a>
@@ -34,8 +36,8 @@
                   <a @click="clickedBenches">
                     <div class="form-group">
                       <label class="container_check version_2"
-                        ><h5 style="text-align: center">Benches</h5>
-                        <img src="3.png" />
+                        ><h5 style="text-align: center">Sofa</h5>
+                        <img src="productimages/bench1.jpeg" />
                       </label>
                     </div>
                   </a>
@@ -43,7 +45,7 @@
                     <div class="form-group">
                       <label class="container_check version_2"
                         ><h5 style="text-align: center">Mirror</h5>
-                        <img src="2.png" />
+                        <img src="productimages/mirror1.jpeg" />
                       </label>
                     </div>
                   </a>

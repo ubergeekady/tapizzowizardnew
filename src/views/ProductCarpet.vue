@@ -21,9 +21,6 @@
                 <img src="productimages/carpet3.jpeg" alt="" />
                 <h3>Carnival</h3>
               </div>
-            </div>
-
-            <div class="row">
               <div class="col-md-4">
                 <img src="productimages/carpet4.jpeg" alt="" />
                 <h3>Channels Indigo</h3>
@@ -78,35 +75,6 @@ export default {
   data() {
     return {
       currentProduct: 0,
-      products: [
-        {
-          id: 0,
-          image: "productimages/carpet1.jpeg",
-          description: `
-        1Seemingly erased in random patterns, colors merge and diverge across the surface of Raku, an artful abstraction enhanced by the mix of matte wool and lustrous viscose. Artisans hand shear the yarns to three heights, creating a topography of tone and texture.
-
-        #homedecor #interiordesign #home #interior #decor #design #homedesign #handmade #homesweethome #art #decoration #furniture #architecture #interiors #homedecoration #love #interiordecor #interiordesigner #vintage #interiorstyling #livingroom #luxury #homestyle #instagood #homeinspo #walldecor #diy #inspiration #smallbusiness #style
-        `,
-        },
-        {
-          id: 1,
-          image: "productimages/carpet2.jpeg",
-          description: `
-        2Seemingly erased in random patterns, colors merge and diverge across the surface of Raku, an artful abstraction enhanced by the mix of matte wool and lustrous viscose. Artisans hand shear the yarns to three heights, creating a topography of tone and texture.
-
-        #homedecor #interiordesign #home #interior #decor #design #homedesign #handmade #homesweethome #art #decoration #furniture #architecture #interiors #homedecoration #love #interiordecor #interiordesigner #vintage #interiorstyling #livingroom #luxury #homestyle #instagood #homeinspo #walldecor #diy #inspiration #smallbusiness #style
-        `,
-        },
-        {
-          id: 2,
-          image: "productimages/carpet3.jpeg",
-          description: `
-        3Seemingly erased in random patterns, colors merge and diverge across the surface of Raku, an artful abstraction enhanced by the mix of matte wool and lustrous viscose. Artisans hand shear the yarns to three heights, creating a topography of tone and texture.
-
-        #homedecor #interiordesign #home #interior #decor #design #homedesign #handmade #homesweethome #art #decoration #furniture #architecture #interiors #homedecoration #love #interiordecor #interiordesigner #vintage #interiorstyling #livingroom #luxury #homestyle #instagood #homeinspo #walldecor #diy #inspiration #smallbusiness #style
-        `,
-        },
-      ],
     };
   },
   methods: {
