@@ -53,7 +53,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/step6");
+      this.$router.push("/step5");
     },
   },
 };

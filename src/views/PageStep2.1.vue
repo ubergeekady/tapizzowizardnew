@@ -31,7 +31,6 @@
                 </button>
               </div>
             </div>
-            <!-- /row -->
           </div>
         </div>
       </div>

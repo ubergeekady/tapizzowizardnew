@@ -9,7 +9,6 @@
               <span id="location"></span>
             </div>
 
-            <!-- /top-wizard -->
             <form id="wrapped" method="post">
               <input id="website" name="website" type="text" value="" />
               <!-- Leave for security protection, read docs for details -->
@@ -20,24 +19,15 @@
                     been recieved. Someone from Tapizzo will get in touch with
                     you shortly
                   </h3>
-
-                  <!-- /row-->
                 </div>
-                <!-- /step-->
               </div>
-              <!-- /middle-wizard -->
               <div id="bottom-wizard"></div>
-              <!-- /bottom-wizard -->
             </form>
           </div>
-          <!-- /Wizard container -->
         </div>
       </div>
-      <!-- /Row -->
     </div>
-    <!-- /Form_container -->
   </div>
-  <!-- /container -->
 </template>
 
 <script>

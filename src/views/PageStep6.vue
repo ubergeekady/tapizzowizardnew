@@ -49,9 +49,7 @@
                   </a>
                 </div>
               </div>
-              <!-- /row -->
             </div>
-            <!-- /step-->
           </div>
         </div>
       </div>

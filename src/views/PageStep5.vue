@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     clickedNext() {
-      this.$router.push("/step5.1");
+      this.$router.push("/step6");
     },
   },
 };
