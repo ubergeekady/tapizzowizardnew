@@ -8,8 +8,9 @@
               <div class="col-md-12">
                 <br /><br />
                 <h1>
-                  Great. Please take this short pictoral quiz for our
-                  recommendation engine to find your home decorating style.
+                  Great. Please take this short pictoral quiz for Freya to find
+                  your home decorating style. Please click on one or more images
+                  below which appeal to you more than the rest.
                 </h1>
 
                 <br /><br />

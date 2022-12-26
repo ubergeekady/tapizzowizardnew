@@ -9,7 +9,7 @@
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <h2 style="color: #ffffff">
                   Would you like use our award winning Virtual Decorating
-                  Assistant to find what you are looking for?
+                  Assistant Freya to find what you are looking for?
                 </h2>
                 <br /><br /><br /><br /><br /><br /><br /><br />
               </div>
