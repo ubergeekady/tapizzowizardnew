@@ -21,7 +21,7 @@
                 <div class="form-group">
                   <label class="container_check version_2"
                     ><img
-                      width="300"
+                      width="400"
                       height="300"
                       src="/roompicsnew/1.jpeg"
                       alt=""
@@ -38,7 +38,7 @@
                 <div class="form-group">
                   <label class="container_check version_2"
                     ><img
-                      width="300"
+                      width="400"
                       height="300"
                       src="/roompicsnew/2.jpeg"
                       alt=""
@@ -55,7 +55,7 @@
                 <div class="form-group">
                   <label class="container_check version_2"
                     ><img
-                      width="300"
+                      width="400"
                       height="300"
                       src="/roompicsnew/3.jpeg"
                       alt=""
@@ -75,7 +75,7 @@
                 <div class="form-group">
                   <label class="container_check version_2"
                     ><img
-                      width="300"
+                      width="400"
                       height="300"
                       src="/roompicsnew/4.jpeg"
                       alt=""
@@ -92,7 +92,7 @@
                 <div class="form-group">
                   <label class="container_check version_2"
                     ><img
-                      width="300"
+                      width="400"
                       height="300"
                       src="/roompicsnew/5.jpeg"
                       alt=""

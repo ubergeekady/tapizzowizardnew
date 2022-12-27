@@ -8,8 +8,7 @@
               <div class="col-md-6">
                 <br /><br />
                 <h2>
-                  Based on our recommendation engine model , your main style is
-                  : Midwest Modern
+                  Freya says your decorating style is "Mid Century Modern"
                 </h2>
                 <br />
                 <h3>About Your Style</h3>
