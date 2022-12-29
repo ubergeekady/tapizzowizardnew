@@ -37,12 +37,12 @@ const routes = [
   {
     path: "/step5",
     name: "step5",
-    component: () => import("../views/PageStep5.vue"),
+    component: () => import("../views/PageStep5.1.vue"),
   },
   {
     path: "/step5.1",
     name: "step5.1",
-    component: () => import("../views/PageStep5.1.vue"),
+    component: () => import("../views/PageStep5.2.vue"),
   },
   {
     path: "/step6",
