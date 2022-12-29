@@ -17,7 +17,15 @@
             <div class="row" style="text-align: center">
               <div class="col-md-12">
                 <br /><br />
-                <img src="startthequiz.png" @click="clickedNext" alt="" />
+
+                <button
+                  type="button"
+                  name="for"
+                  class="forward"
+                  @click="clickedNext"
+                >
+                  Yes
+                </button>
               </div>
             </div>
           </div>

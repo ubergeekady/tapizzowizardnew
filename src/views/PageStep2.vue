@@ -23,7 +23,7 @@
                     ><img
                       width="400"
                       height="300"
-                      src="/roompicsnew/1.jpeg"
+                      src="/roompicsnew/5.jpeg"
                       alt=""
                     />
                     <input
