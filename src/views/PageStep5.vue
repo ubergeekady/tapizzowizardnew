@@ -5,56 +5,22 @@
         <div class="col-lg-12">
           <div id="wizard_container">
             <div class="row" style="text-align: center">
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <br /><br />
-                <h1>
-                  Please fill your phone and email ID to see your home
-                  decorating style.
-                </h1>
-
-                <br /><br />
+                <h2>
+                  Freya says your decorating style is "Mid Century Modern"
+                </h2>
+                <br />
+                <h3>About Your Style</h3>
+                Did someone say shiplap ? Classic Americana, comfy fabrics,
+                hardworking furnishings, neutral colors and raw materials like
+                wood and iron make your space feel like home.
               </div>
-            </div>
+              <div class="col-md-6">
+                <br />
+                <img src="rustic.webp" width="300" height="300" alt="" />
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="First And Last Name"
-                    class="form-control required"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    id="email"
-                    class="form-control required"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Phone"
-                    class="form-control required"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Location"
-                    class="form-control required"
-                  />
-                </div>
+                <br /><br />
               </div>
             </div>
 
